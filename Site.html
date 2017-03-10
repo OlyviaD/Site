@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", "initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Simplon-Link</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top navigation">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <!-- responsive de la navbar-->
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <!-- <a class="navbar-brand" href="#">Simplon Sarcelles</a> -->
+            </div>
+            <div class="collapse navbar-collapse " id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#ancreaccueil">Accueil</a></li>
+                <li><a href="#ancrepresentation">Présentation</a></li>
+                <li><a href="#ancreprojet">Projet</a></li>
+
+                <li><a href="#" id="apprenants" >Simploniens</a></li>
+                <li><a href="#ancrelivredor">Livre d'or</a></li>
+                <li><a href="#ancrefaq">F.A.Q</a></li>
+                <li><a href="#link" id= "link2">Simplon Link</a></li>
+                </ul>
+            </div>
+          </div>
+        </nav>
+<div class="container" id="link">
+  <div class="col-md-12 vide"></div>
+  <div class="row">
+    <div class="col-md-offset-4 col-md-6 clear">
+      <img src="Gallery/PC.png" class="img-responsive" >
+    </div>
+  </div>
+  <div class="col-md-12 vide"></div>
+  <div class="col-md-12 contenu">
+    <form class="" action="index.html" method="post">
+    <div class="col-md-offset-2 col-md-7 url">
+      <label for="url">Recherche par URL:</label>
+      <input id="url" type="text" name="" value="" placeholder="http://www.exemple.com">
+    </div>
+    <div class="col-md-12 vide"></div>
+    <!-- <div class="container">
+    <div class="row"> -->
+
+<div class="col-md-offset-2 col-md-7 categories">
+
+
+    <!-- <div class="col-md-7 col-sm-12 "> -->
+      <label for="categories">Recherche par Catégories: </label> <!-- </div> -->
+      <!-- <div class=" col-md-offset-0 col-md-8 col-sm-12"> -->
+      <select multiple="" style="width:50%";>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JavaScript</option>
+        <option value="resp">Bootstrap</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JavaScript</option>
+        <option value="resp">Bootstrap</option>
+      </select>
+    <!-- </div> -->
+</div>
+<!-- </div>
+</div> -->
+    <div class="col-md-12 vide"></div>
+
+    <div class="col-md-offset-2 col-md-7 tags">
+      <label for="tags">Recherche par mots-clés:</label>
+      <input id="tags" type="text" name="" value="" placeholder="#html; #css; #js...">
+    </div>
+    <div class="col-md-offset-2 col-md-7 description">
+      <!-- <label for="description">Recherche par :</label> -->
+      <!-- <input id="description" type="text" name="" value="" > -->
+    </div>
+  </div><!--fin de la div contenu-->
+    <div class="col-md-12 vide"></div>
+    <div class="col-md-offset-4 col-md-2 effet">
+      <button type="button" onclick="document.location.href='Resultats.html';" value="Rechercher" class="btn btn-info">Rechercher</button>
+    <!-- <input type="button" onclick="document.location.href='Resultats.html';" value="Rechercher"> -->
+  </div>
+    <div class="col-md-offset-0 col-md-2">
+      <button type="button" onclick="open('Lien.html', 'Popup', 'scrollbars=1,resizable=1,height=560,width=900');
+      return false;" class="btn btn-info">Soumettre un lien<value="Soumettre un lien"></button>
+    <!-- <input type="button" onclick="open('Lien.html', 'Popup', 'scrollbars=1,resizable=1,height=560,width=900');
+    return false;" value="Soumettre un lien"> -->
+   </div>
+    </form>
+    <div class="col-md-12 vide"></div>
+
+</div> <!--fin du container-->
+
+  </body>
+</html>
